@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.bigggfish.rongcloudimdemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登陆账号：1"/>
+
+    <Button
+        android:id="@+id/btn_connect2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登陆账号：2"/>
+
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取当前账号会话列表"/>
+
+    <Button
+        android:id="@+id/btn_comment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取当前账号单聊"/>
+
+    <!--<Button
+        android:id="@+id/btn_comment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账号2与账号1单聊"/>-->
+</LinearLayout>
