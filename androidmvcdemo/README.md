@@ -1,1 +1,1 @@
-# 非常简单的android mvc demo
+# 简单的android mvc demo
